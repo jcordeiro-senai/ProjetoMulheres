@@ -1,0 +1,612 @@
+* {
+    margin: 0;                     
+    padding: 0;                    
+    box-sizing: border-box;        
+}
+
+body {
+    background-color: rgb(255, 251, 252);  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #051646;
+}                 
+
+.container {            
+    margin: 0 auto;                
+    display: flex; 
+    justify-content: center;                                        
+}
+
+.menu{
+    display: flex;   
+    flex-direction: column;
+    height: 100%; 
+    width: 260px;
+    background-color: rgba(255, 240, 245, 0.351);
+    padding: 15px 25px;
+}
+
+.logo{
+    width: 135px;
+    display: flex;
+    margin: auto;
+}
+
+.perfil{
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+.perfil .name{
+    margin-top: 6px;
+    text-align: center; 
+}
+
+.perfil .name h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.perfil .name i{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #A2355D;
+}
+
+.menu .line{
+    background-color: #a2355d77;
+    height: 2px;
+    width: 212px;
+    margin-bottom: 24px;
+}
+
+.option{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.type:hover{
+    color: #A2355D;    
+}
+
+.menu .icon{
+    width: 21px;
+}
+
+.type{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.text{ 
+    margin-top: 270px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    gap: 10px;
+}
+
+.text i{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.text_name{
+    margin-top: 13px;
+}
+
+.text_name h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text_name i{
+    color: #A2355D;
+}
+
+.line{
+    background-color: #a2355d2a;
+    width: 3px;
+}
+
+.main{
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.title{
+    display: flex;
+    align-items: end;
+    gap: 8px;
+    font-size: 25px;
+    margin-right: 775px;
+}
+
+.title h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #A2355D;
+}
+
+.card{
+    background-color: rgba(255, 240, 245, 0.351);
+    width: 1150px;
+    display: flex;
+    height: auto;
+    gap: 60px;
+    align-items: center;
+    border: 2px solid #a2355d0f;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 6px 8px rgba(72, 6, 37, 0.121); 
+}
+
+.card .image{
+    width: 390px;
+    border-radius: 20px 20px;
+
+}
+
+.card_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card_1 p{
+    line-height: 25px;
+    font-size: 19px;
+    color: #030f31a1;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.destaque h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.block{
+    display: flex;
+    gap: 20px;
+}
+
+.block_destaque{
+    background-color: rgba(255, 240, 245, 0.351);
+    width: 270px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    border: 2px solid #a2355d0f;
+    padding: 25px 25px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 6px 8px rgba(72, 6, 37, 0.121); 
+    flex-direction: column;
+}
+
+.block_destaque .icon{
+    width: 40px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.block_destaque h1{
+    font-size: 40px;
+    color: #A2355D;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-bottom: 10px;    
+}
+
+.block_destaque p{
+    font-size: 16px;
+    color: #030f31a1;
+}
+
+.about{
+    display: flex;
+    gap: 30px;
+}
+.about_text{
+    background-color: rgba(255, 240, 245, 0.351);
+    width: 580px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #a2355d0f;
+    padding: 40px 45px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 6px 8px rgba(72, 6, 37, 0.121);     
+}
+
+
+.about_text h2{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.about_text  p{
+    line-height: 24px;
+    font-size: 18px;
+    color: #030f31a1;
+}
+
+
+.quote{
+    background-color: rgba(255, 186, 209, 0.351);
+    width: 540px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #a2355d0f;
+    padding: 40px 45px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 6px 8px rgba(72, 6, 37, 0.121);    
+}
+
+.quote .icon{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+
+.quote i{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.quote p{
+    color: #A2355D;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lin{
+    background-color: #A2355D;
+    height: 2px;
+    width: 1140px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.rodape{
+    width: auto;
+    color: aliceblue;
+    background-color: #030d28;
+    display: flex;
+    padding: 15px 25px;
+    justify-content: space-between;
+}
+
+.rodape i{
+    font-family: 'Times New Roman', Times, serif;
+    color: #A2355D;
+}
+
+
+@media (max-width: 999px) {
+    /* Altera a direção da linha do meio para coluna (menu em cima, principal embaixo) */
+    
+    .title{
+        margin-right: 0;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .card{
+        width: 92%;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card .image{
+        width: 100%;
+        max-width: 390px;
+    }
+
+    .card_1{
+        min-width: 280px;
+        flex: 1 1 320px;
+    }
+
+    .block{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .about{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .about_text,
+    .quote{
+        margin: auto;
+        width: 100%;
+        max-width: 580px;
+    }
+
+    .lin{
+        width: 92%;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+
+    .title{
+        font-size: 18px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        gap: 0px;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+
+    .menu .line{
+        width: auto;
+    }
+
+    .perfil .logo{
+        width: 30%;
+    }
+
+    .perfil .name h2{
+        font-size: 18px;
+    }
+
+    .perfil .name i{
+        font-size: 15px;
+    }
+
+    .menu_option{
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px; 
+        justify-content: center; 
+    }
+
+    .option{
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+
+    .option .icon{
+        width: 16px;
+    }
+
+    .option .type{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .menu .text{ 
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main{
+        margin: auto;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .card {
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 20px 18px;
+    }
+
+    .card_1{
+        width: 100%;
+        min-width: 0;
+        flex: none;
+    }
+
+    .card_1 h2{
+        font-size: 22px;
+    }
+
+    .card_1 h3{ 
+        font-size: 18px;
+    }
+
+    .card_1 p{
+        font-size: 16px;
+        overflow-wrap: break-word;
+    }
+
+    .card_1 .more{
+        font-size: 14px;
+        height: 30px;
+        text-decoration: none;
+        padding: 0px 0px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+    
+    .card .image{
+        width: 85%;
+    }
+
+    .destaque{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .destaque h2{
+        font-size: 22px;
+        text-align: center;    
+    }
+
+    .block{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .block_destaque{
+        width: 85%;
+        height: auto;
+        margin: auto;
+    }
+
+    .block_destaque .icon{
+        width: 30px;
+    }
+
+    .block_destaque h1{
+        font-size: 30px;
+    }
+
+    .block_destaque h3{
+        font-size: 19px;
+        overflow-wrap: break-word;
+    }
+
+    .block_destaque p{
+        font-size: 17px;
+        overflow-wrap: break-word;
+    }
+
+    .about{
+        margin:0 auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .about_text{
+        width: 100%;
+        height: auto;
+        padding: 25px 20px;
+    }
+
+    .about_text h4{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .about_text h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+        overflow-wrap: break-word;
+    }
+
+    .about p{
+        font-size: 16px;
+        overflow-wrap: break-word;
+    }
+
+    .about strong{
+        font-size: 16px;
+    }
+
+    .project .image{
+        width: 90%;
+    }
+
+    .quote{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        padding: 25px 20px;
+    }
+
+    .quote .icon{
+        width: 30%;
+    }
+
+    .quote i{
+        font-size: 19px;
+        overflow-wrap: break-word;
+    }
+
+    .quote p{
+        font-size: 15px;
+    }
+
+    .rodape{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 16px;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .rodape p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .rodape i{
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+}
